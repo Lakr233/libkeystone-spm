@@ -1,0 +1,39 @@
+#ifndef LAKR233_LLVM_CONFIG_H
+#define LAKR233_LLVM_CONFIG_H
+
+#define ENABLE_BACKTRACES 1
+#define ENABLE_CRASH_OVERRIDES 1
+#define ENABLE_THREADS 0
+#define HAVE_ASSERT_H 1
+#define HAVE_DIRENT_H 1
+#define HAVE_DLFCN_H 1
+#define HAVE_ERRNO_H 1
+#define HAVE_FCNTL_H 1
+#define HAVE_GETPAGESIZE 1
+#define HAVE_INT64_T 1
+#define HAVE_INTTYPES_H 1
+#define HAVE_ISATTY 1
+#define HAVE_MACH_MACH_H 1
+#define HAVE_MMAP 1
+#define HAVE_MMAP_ANONYMOUS 1
+#define HAVE_MMAP_FILE 1
+#define HAVE_PREAD 1
+#define HAVE_SIGNAL_H 1
+#define HAVE_STDINT_H 1
+#define HAVE_STDLIB_H 1
+#define HAVE_STRING_H 1
+#define HAVE_SYS_MMAN_H 1
+#define HAVE_SYS_PARAM_H 1
+#define HAVE_SYS_RESOURCE_H 1
+#define HAVE_SYS_STAT_H 1
+#define HAVE_SYS_TIME_H 1
+#define HAVE_SYS_TYPES_H 1
+#define HAVE_SYS_UIO_H 1
+#define HAVE_TERMIOS_H 1
+#define HAVE_UINT64_T 1
+#define HAVE_UNISTD_H 1
+#define HAVE_WRITEV 1
+#define LLVM_ENABLE_THREADS 0
+#define LLVM_ON_UNIX 1
+
+#endif
