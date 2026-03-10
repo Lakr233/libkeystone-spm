@@ -1,4 +1,4 @@
-module Keystone {
+module CoreKeystone {
   header "Keystone.h"
   export *
 }

@@ -138,10 +138,11 @@ let package = Package(
     ],
     products: [
         .library(name: "Keystone", targets: ["Keystone"]),
+        .library(name: "CoreKeystone", targets: ["CoreKeystone"]),
     ],
     targets: [
         .target(
-            name: "Keystone",
+            name: "CoreKeystone",
             path: ".",
             exclude: [
                 ".github",
@@ -174,6 +175,11 @@ let package = Package(
             linkerSettings: [
                 .linkedLibrary("c++"),
             ]
+        ),
+        .target(
+            name: "Keystone",
+            dependencies: ["CoreKeystone"],
+            path: "Sources/KeystoneSwift"
         ),
         .testTarget(
             name: "KeystoneTests",
