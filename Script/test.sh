@@ -50,4 +50,6 @@ run_xcodebuild build "generic/platform=watchOS"
 run_xcodebuild build "generic/platform=watchOS Simulator"
 run_xcodebuild build "generic/platform=xrOS"
 run_xcodebuild build "generic/platform=xrOS Simulator"
-run_xcodebuild test "platform=macOS"
+
+echo "[*] swift test"
+swift test
